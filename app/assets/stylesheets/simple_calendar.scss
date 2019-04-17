@@ -1,10 +1,12 @@
 .simple-calendar {
-  .previous {
+  .a {
     position: relative;
     top: -0.05em;
     margin: 0 .2em;
     vertical-align: middle;
     color: black;
+    border-radius: 5px;
+    width:50px;
   }
   table {
     -webkit-border-horizontal-spacing: 0px;
