@@ -5,7 +5,11 @@
 <div class="fc-toolbar fc-header-toolbar">
 <div class="fc-left">
 <div class="fc-button-group">
-<button class="fc-prev-button fc-button fc-state-default fc-corner-left" aria-label="prev"><span class="fc-icon fc-icon-left-single-arrow"><%= link_to t('simple_calendar.previous', default: 'Previous'), calendar.url_for_previous_view %></span></button>
+<span><button class="fc-prev-button fc-button fc-state-default fc-corner-left" aria-label="prev">
+  <span class="fc-icon fc-icon-left-single-arrow">
+    <%= link_to t('simple_calendar.previous', default: 'Previous'), calendar.url_for_previous_view %></span>
+ </button>
+</span>
 <span><button class="next"><%= link_to t('simple_calendar.next', default: 'Next'), calendar.url_for_next_view %></button></span>
 </div>
 </div>
