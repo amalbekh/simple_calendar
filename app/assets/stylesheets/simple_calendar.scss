@@ -1,4 +1,13 @@
 .simple-calendar {
+  previous {
+    content: "\2039";
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%;
+    position: relative;
+    margin: 0 .2em;
+    vertical-align: middle;
+  }
   table {
     -webkit-border-horizontal-spacing: 0px;
     -webkit-border-vertical-spacing: 0px;
