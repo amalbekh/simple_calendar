@@ -38,9 +38,9 @@
           <% week.each do |day| %>
             <%= content_tag :td, class: calendar.td_classes_for(day) do %>
               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(block) %>
-                <div class= "testtestets" >
+                
                     <% capture_haml(day, sorted_events.fetch(day, []), &block) %>
-                </div>
+                
               <% else %>
                 <% block.call day, sorted_events.fetch(day, []) %>
                 
