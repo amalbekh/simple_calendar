@@ -36,10 +36,10 @@
       <% date_range.each_slice(7) do |week| %>
         <tr>
           <% week.each do |day| %>
-            <b>affffffffff</b>
             <%= content_tag :td, class: calendar.td_classes_for(day) do %>
               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(block) %>
                 <% capture_haml(day, sorted_events.fetch(day, []), &block) %>
+                <b>affffffffff</b>
               <% else %>
                 <% block.call day, sorted_events.fetch(day, []) %>
               <% end %>
