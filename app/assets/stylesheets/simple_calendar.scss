@@ -9,6 +9,7 @@
     box-sizing: border-box;
     max-width: 100%;
     width: 100%;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   tr {
@@ -48,6 +49,7 @@
 
   .day {
     height: 80px;
+    font-size: 20px;
   }
 
   .wday-0 {}
